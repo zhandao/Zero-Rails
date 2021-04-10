@@ -294,7 +294,7 @@ group :development do
   # gem 'dawnscanner', require: false # or just `gem install`
 
   # https://github.com/bbatsov/rubocop
-  gem 'rubocop', require: false # or just `gem install`
+  gem 'rubocop', '>= 0.91.0', require: false # or just `gem install`
   # https://github.com/toshimaru/rubocop-rails
   # gem "rubocop-rails_config", require: false # or just `gem install`
 
