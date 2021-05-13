@@ -90,7 +90,7 @@ gem 'out_put'
 
 # === App Server ===
 # https://github.com/puma/puma
-gem 'puma'
+gem 'puma', '>= 5.3.1'
 
 
 # === Ruby Extension ===
@@ -258,7 +258,7 @@ group :development do
   # http://nadarei.co/mina/
   gem 'mina', require: false
   # https://github.com/untitledkingdom/mina-puma
-  gem 'mina-puma', require: false
+  gem 'mina-puma', '>= 1.1.0', require: false
   # Plugin for Mina that adds support for multiple stages.
   # https://github.com/endoze/mina-multistage
   gem 'mina-multistage', require: false
