@@ -303,7 +303,7 @@ group :development do
 
   # A Ruby code quality reporter, https://github.com/whitesmith/rubycritic
   # https://ruby-china.org/topics/30746
-  gem 'rubycritic', require: false # or just `gem install`
+  gem 'rubycritic', '>= 4.5.2', require: false # or just `gem install`
 
   # Colorized logging for Memcached and Redis
   # https://github.com/ankane/cacheflow
